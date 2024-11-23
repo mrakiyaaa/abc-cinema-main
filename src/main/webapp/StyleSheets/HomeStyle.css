@@ -1,0 +1,39 @@
+.carousel-caption {
+    position: absolute;
+    top: 40%; /* Lower the caption closer to the center */
+    left: 5%; /* Keep it aligned to the left */
+    transform: translateY(-50%);
+    z-index: 10; /* Ensure it appears above the image */
+    color: white !important; /* Maintain visibility on all images */
+    text-align: left; /* Keep the text aligned to the left */
+}
+
+
+/* Prevent overflow issues */
+.carousel-item {
+    position: relative; /* Ensures relative positioning for captions */
+    overflow: visible !important; /* Ensures no clipping of captions */
+}
+
+/* Optional styling for buttons */
+.btn-custom {
+    background-color: #E64C45;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.btn-custom:hover {
+    background-color: #c43d37;
+}
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: black;
+}

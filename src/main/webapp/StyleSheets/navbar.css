@@ -1,0 +1,75 @@
+/* Navbar styles */
+.navbar {
+    background-color: #282727; /* Dark background */
+    border-bottom: 2px solid #444; /* Slight border at the bottom */
+    padding: 0.5rem 1rem;
+}
+
+/* Logo and brand */
+.logo {
+    height: 40px; /* Adjust logo size */
+    max-height: 100%;
+}
+
+.brand-text h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* White logo text */
+    margin-bottom: 0;
+}
+
+.brand-text p {
+    font-size: 0.8rem;
+    color: #aaa; /* Subtle tagline text */
+    margin-bottom: 0;
+}
+
+/* Navbar links */
+.nav-link {
+    font-size: 1rem;
+    color: #e0e0e0; /* Light gray links */
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #fff; /* Highlight on hover */
+}
+
+/* "Buy Tickets" button */
+.btn-buy-tickets {
+    background-color: #E64C45; /* Red background for the button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-buy-tickets:hover {
+    background-color: white;
+    color: #282727;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .brand-text h1 {
+        font-size: 1.2rem;
+    }
+    .brand-text p {
+        font-size: 0.7rem;
+    }
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    .btn-buy-tickets {
+        font-size: 0.9rem;
+    }
+}
+
+
+.navbar-brand img {
+    height: 70px;
+    width: auto;
+}
